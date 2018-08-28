@@ -1,0 +1,171 @@
+﻿<html>
+<head>
+<link rel="stylesheet" href="chessStyle.css" type="text/css">
+<script type="text/javascript">
+function FunctionOver (myText)
+{
+	document.getElementById("info").innerHTML="Click On " + myText + "!";
+}
+</script>
+</head>
+<body>
+<form name= "form1" action="mailto:bohanz2009@gmail.com?subject=Chess Questions&cc=sambucey@gmail.com"
+ method="post" enctype="text/plain">
+<h1>
+Welcome to Baldr's Chess Website
+</h1>
+<div class="box">
+<p class="dropcap"> 
+This website is created by Baldr and dedicated to the learning, communicating, and playing of chess. I will be showing
+the functions of the major chess pieces, as well as discuss possible rules and strategies of the game. I will also be
+providing examples of famous games played by past grandmasters. </p>
+</div>
+
+<div class="left">
+
+<p>Here are somethings that may interest you:
+<p><a href="#rules">Rules of the Game</a>
+<p><a href="#players">Famous Players</a>
+<p><a href="#pieces">Game Pieces</a>
+<p><a href="#video">Video Tutorial</a>
+<p><a href="#survey">Survey</a>
+<p><a href="#question">Questions</a>
+</p>
+
+<br>
+<h2>
+<a name="rules">Rules of the Game</a>
+</h2> 
+<p>
+Chess is a game played between two opponents on opposite sides of a board containing 64 squares of alternating colors (black and white).
+Each player has 16 pieces: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 8 pawns. 
+The goal of the game is to checkmate the other king. 
+<p>At the beginning of the game the chessboard is laid out so that each player has the white (or light) color square in the bottom right-hand side. 
+The chess pieces are then arranged the same way each time. The second row (or rank) is filled with pawns. 
+The rooks go in the corners, then the knights next to them, followed by the bishops, and finally the queen, 
+who always goes on her own matching color (white queen on white, black queen on black), and the king on the remaining square.
+The player with the white pieces always moves first. 
+<p>Therefore, players generally decide who will get to be white by chance or luck such as flipping a coin 
+or having one player guess the color of the hidden pawn in the other player's hand. White then makes a move, followed by black, 
+then white again, then black and so on until the end of the game.
+</p>
+
+<br>
+<h3>
+<a name="players">Famous Players</a>
+</h3>
+<p>Magnus Carlsen (Rating: 2882)
+<p><img alt="Image result" src="http://www.chessgames.com/portraits/magnuscarlsen.jpg" height="150" width="120">
+<p>Gary Kasparov (Rating:  2851)
+<p><img alt="Image of Gary Kasparov" src="C:\Computer\Pictures\kasparov-628x356.jpg" height="120" width="150">
+<p>Fabiano Caruana (Rating:  2844)
+<p><img alt="Image of Fabiano Caruana" src="C:\Computer\Pictures\FabianoCaruana.jpg" height="150" width="120">
+<p>Levon Aronian (Rating:  2830)
+<p><img alt="Image of Levon Aronian" src="C:\Computer\Pictures\LevonAronian.jpg" height="120" width="150">
+</p>
+
+<br>
+<h4>
+<a name="pieces">Game Pieces</a>
+</h4>
+<p>Click on the following pieces for more information:</p>
+<p>
+<img alt="Image of Chess Board" src="C:\Computer\Pictures\chessdiagram.jpg" usemap="#chessdiagram" 
+ height="394" width="394">
+</p>
+<map name="chessdiagram">
+<area shape="rect" href="Queen.html" coords="108,151,153,197" alt="Queen"
+	onmouseover="FunctionOver('The Queen');"
+	onmouseout="FunctionOver('A Piece');">
+<area shape="rect" href="Queen.html" coords="283,197,328,240" alt="Queen"
+	onmouseover="FunctionOver('The Queen');"
+	onmouseout="FunctionOver('A Piece');">
+<area shape="rect" href="Rook.html" coords="109,329,154,372" alt="Rook"
+	onmouseover="FunctionOver('The Rook');"
+	onmouseout="FunctionOver('A Piece');">
+<area shape="rect" href="Rook.html" coords="285,23,329,64" alt="Rook"
+	onmouseover="FunctionOver('The Rook');"
+	onmouseout="FunctionOver('A Piece');">
+<area shape="rect" href="Rook.html" coords="23,21,67,64" alt="Rook"
+	onmouseover="FunctionOver('The Rook');"
+	onmouseout="FunctionOver('A Piece');">
+</map>
+<p id="info">Click On Somewhere</p>
+
+<br>
+<h5>
+<a name="video">Video Tutorial</a>
+</h5>
+<p><iframe width="654" height="380" 
+ src="https://www.youtube.com/embed/cA-fA5eLGpY" frameborder="0"></iframe>
+</p>
+
+<br>
+<h6>
+<a name="survey">Survey</a>
+</h6>
+<p>
+Was this site helpful to you?
+</p>
+<p>
+<select name="How Helpful?">
+<option value="Very Helpful">Very Helpful
+<option value="Helpful">Helpful
+<option selected value="Neutral">Neutral
+<option value="Not Helpful">Not Helpful
+<option value="Very Not Helpful">Very Not Helpful
+</option>
+</select>
+</p>
+<p>
+What would you say is you favorite game piece?
+</p>
+<p>
+<select name="Game Piece" multiple size="3">
+<option value="Bishop">Bishop
+<option value="King">King
+<option value="Kinght">Knight
+<option value="Queen">Queen
+<option value="Pawn">Pawn
+<option value="Rook">Rook
+</option>
+</select>
+</p>
+<p>
+Which piece/pieces did you find the most challenging to play against?
+</p>
+<p><input type="checkbox" name="check1" value="bishop" checked>Bishop
+<p><input type="checkbox" name="check2" value="king">King
+<p><input type="checkbox" name="check3" value="knight">Knight
+<p><input type="checkbox" name="check4" value="queen">Queen
+<p><input type="checkbox" name="check5" value="pawn">Pawn
+<p><input type="checkbox" name="check6" value="rook">Rook
+</p>
+<p>
+Overall, did you enjoy the content on this website?
+</p>
+<p>
+<input type="radio" name="one" value="yes" checked>Yes
+<input type="radio" name="one" value="no">No
+</p>
+
+<br>
+<p class="indent">
+<a name="question">Questions</a>
+</p>
+<p>
+If you have any questions, you may ask it here:
+</p>
+<p><textarea cols="50" rows="6" wrap="hard"></textarea></p>  
+<p>What is your email?</p>
+<p><input type="text" name="email" value="xxx@xxx.com"></p>
+
+<br>
+<p>
+<input type="submit" name="submit" value="Submit Your Question">
+<input type="reset" name="reset" value="Return To Default">
+</p>
+</div>
+</form>
+</Body>
+</html>

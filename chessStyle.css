@@ -1,0 +1,74 @@
+﻿body {
+	color: black;
+	background-color: silver;
+	font-size: large;
+}
+
+h1 {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: xx-large, larger;
+}
+
+pre code {
+	font-family: monospace;
+}
+
+.box {
+	border:solid;
+	border-width: thin;
+	width:95%;
+	padding: 1em;
+}
+
+p.dropcap: first-letter {
+	font-size: 3em;
+	float: left;
+	color:maroon;
+}
+
+.left {
+	margin-left: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+p.indent {
+	font-size: x-large;
+	font-weight: bold;	
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:active {
+	color: navy;
+}
+
+a:hover{
+	color: maroon;
+}
+
+#elScroll {
+	border-style: solid solid double double;
+	overflow: scroll;
+	height: 100px;
+	width: 95%;
+	padding: 2em;
+}
+
+
+
+
+
+
+
